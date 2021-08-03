@@ -6,7 +6,7 @@ spring:
     password: root
   jpa:
     generate-ddl: false
-    show-sql: true
+    show-sql: false
   main:
     banner-mode: off
 logging:
