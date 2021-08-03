@@ -17,3 +17,5 @@ logging:
     file: "%d{yyyy-MM-dd HH:mm:ss} - [%thread] - %-5level - %logger{40} - %msg%n"
   level:
     '[com.pepperfry.product]': trace
+product:
+  defaultCategory: electronic
