@@ -7,3 +7,14 @@ spring:
   jpa:
     generate-ddl: true
     show-sql: false
+  main:
+    banner-mode: off
+logging:
+  file:
+   path: E:\new_projects\microservices\pepperfry-product-service
+   name: pepperfry-product-service.log
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} - [%thread] - %-5level - %logger{40} - %msg%n"
+  level:
+    '[com.pepperfry.product]': trace
+  
